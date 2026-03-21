@@ -1,0 +1,70 @@
+############################
+# OS / Editor junk
+############################
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+.Spotlight-V100
+.Trashes
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+############################
+# Node / JavaScript
+############################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs
+dist/
+build/
+coverage/
+.cache/
+.vite/
+
+# Logs
+logs/
+*.log
+*.log.*
+debug.log*
+
+############################
+# Environment / secrets
+############################
+.env
+.env.*
+
+############################
+# Python
+############################
+__pycache__/
+*.py[cod]
+*$py.class
+
+.pytest_cache/
+.mypy_cache/
+.pytype/
+.coverage
+.coverage.*
+htmlcov/
+
+# Virtual environments
+.env/
+.venv/
+venv/
+env/
+myenv/
+
+############################
+# Misc tooling
+############################
+.python-version
+.npmrc
+.DS_Store
