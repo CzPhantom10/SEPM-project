@@ -36,12 +36,13 @@ function UploadPage() {
         body: formData
       });
 
-      if (!res.ok) {
-        const data = await res.json().catch(() => ({}));
-        throw new Error(data.message || 'Analysis failed');
-      }
+      const data = await res.json().catch(() => ({}));
 
-      const data = await res.json();
+      if (!res.ok) {
+        // FastAPI returns errors in a `detail` field by default
+        const message = data.message || data.detail || 'Analysis failed';
+        throw new Error(message);
+      }
 
       // Save current analysis
       sessionStorage.setItem('lexassist_analysis', JSON.stringify(data));
