@@ -84,6 +84,3 @@ Create `.env` files as needed (not committed) for:
 - Database URLs
 - External service credentials
 
-## License
-
-Add your chosen license here.
