@@ -1,6 +1,5 @@
-# SEPM Project
-
-This repository contains a full-stack application with a React/Vite client, a Node.js backend, and a Python (FastAPI) service.
+LEXASSIST AI
+An AI agent for legal practitioners to simplify documentation and paralegal work.
 
 ## Project Structure
 
